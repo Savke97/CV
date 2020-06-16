@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="O meni.css">
+    <script src="O meni.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <title>Info</title>
+    <link rel="icon" href="../Slike/IconaTitl.png">
+</head>
+<body>
+
+    <!-- Menu kartica -->
+    <div id="OtvoriMenu" >
+            <img src="../Slike/MenuIcon.png" >
+            <p class="hint--right" aria-label="Otvori menu"></p>
+    </div>
+
+    <!-- Menu -->
+    <div id="main">
+            <div id="logo">
+                <h2>Menu</h2>
+            </div>
+            <div id="menu">
+                <ul>
+                    <a href="../index.html">
+                            <li onmouseover="anim('OMeni')">
+                                    <div id="OMeni" class="menu">
+                                        POCETN
+                                        <div class="rotiraj">A</div>
+                                    </div>
+                            </li>
+                    </a>
+
+                    <a href="../Vestine/Vestine.html">
+                            <li onmouseover="anim('VESTINE')" >
+                                    <div id="VESTINE" class="menu">
+                                        VESTIN
+                                        <div class="rotiraj">E</div>
+                                    </div>
+                            </li>
+                    </a>
+
+                    <a href="../Mreze/Mreze.html">
+                            <li onmouseover="anim('DRUZTEVENE')">
+                                    <div id="DRUZTEVENE" class="menu">
+                                        MREZ
+                                        <div class="rotiraj">E</div>
+                                    </div>
+                            </li>
+                    </a>
+                </ul>
+
+                <div id="closeMenu">
+                        <img src="../Slike/CloseMenu.png" alt="">
+                        <p class="hint--left" aria-label="Zatvori menu"></p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Titl -->
+        <div id="oMeni">
+            <h1>Dobro dosli!</h1>
+        </div>
+
+    <!-- O meni -->
+    <section id="pokazi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-1">
+                        <div class="PokaziLevo">
+                            <img src="../Slike/MojaSlika.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-1">
+                            <div class="PokaziDesno">
+                                <p>
+                                    Dobro došli na moj sajt.
+                                    Zovem se Bojan Savic, rodjen sam u Kraljevo 4 aprila 1997 godine. 
+                                    Cilj ovog sajta jeste da vam pokazem moje vestine, projekte i bolje da me upoznate.
+                                    Uzivaj te.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Detaljnije o meni -->
+    <section id="Detaljno-O-Meni">
+            <div class="container">
+                <p> 
+                    Rođen sam 4.4.1997 godine u Kraljevu. 
+                    Zavrsio sam Sumarsku srednju skolu u Kraljevu smer Geometar. Trenutno studiram na Fakultet tehnickih nauka u Cacku univerzitet u Kragujevcu. 
+                    Student sam trece godine Informacione Tehnologije(IT).
+                    Pored sudiranja na fakultetu, znanje sam prosirio prolazeci kroz online kurseve za Web Development. 
+                    Zavrsen kurs front end developmenta, kurs front end development frameworka Angular. 
+                    Tokom rada na navedenim kursevima, radio sam na projektima koje mozete detaljnije pogledati ispod. 
+                </p>
+                <p class="korisnik">- Bojan Savic</p>
+            </div>
+        </section>
+
+    <!-- Projekti -->
+    <div id="projekti">
+            <h1>Projekti</h1>
+    </div>
+
+
+
+    
+    <!-- Color Game -->
+    <div id="Color-Game">
+        <h1>Color Game</h1>
+    </div>
+    <div class="container tuKontainer">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-1">
+                <div class="Tutorial">
+                        <video width="900" height="450" controls>
+                                <source src="../Video snimci/Color Game.mp4" type="video/mp4">
+                        </video>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Music Maker -->
+    <div id="Music-Maker">
+        <h1>Music Maker</h1>
+    </div>
+    <div class="container tuKontainer">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-1">
+                <div class="Tutorial">
+                        <video width="900" height="450" controls>
+                                <source src="../Video snimci/Music maker.mp4" type="video/mp4">
+                        </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- To do list -->
+    <div id="To-do-List">
+        <h1>To do list</h1>
+    </div>
+    <div class="container tuKontainer">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-1">
+                <div class="Tutorial">
+                        <video width="900" height="450" controls>
+                                <source src="../Video snimci/To do List.mp4" type="video/mp4">
+                        </video>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recepi book -->
+    <div id="Recepi-book">
+        <h1>Recepi Book</h1>
+    </div>
+    <div class="container tuKontainer">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-1">
+                <div class="Tutorial">
+                        <video width="900" height="450" controls>
+                                <source src="../Video snimci/RecepiBook.mp4" type="video/mp4">
+                        </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Video pozadina -->
+        <div class="Video-Wrap">
+            <video id="VideoBackCont" preload="auto" autoplay="true" loop="loop">
+                        <source src="../VideoPozadine/PocetnaStrana.mp4" type="video/mp4" >
+            </video>
+        </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+        window.sr = ScrollReveal();
+
+        sr.reveal('#oMeni,',{
+            duration: 1000,
+            origin: 'top',
+            distance:'300px'
+        });
+
+        sr.reveal('.PokaziLevo,.Tutorial',{
+            duration: 2000,
+            origin: 'left',
+            distance:'700px'
+        });
+
+        sr.reveal('.PokaziDesno',{
+            duration: 2000,
+            origin: 'right',
+            distance:'700px'
+        });
+
+        sr.reveal('#Detaljno-O-Meni,#projekti,#Color-Game',{
+            duration: 2000,
+            distance:'700px'
+        });
+    </script>
+
+
+</body>
+</html>

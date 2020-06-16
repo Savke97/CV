@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ffc200 !important;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+
+#logo{
+    height: 100%;
+    width: 50%;
+    background-color: #84a0ee;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, .4);
+    position: absolute;
+    z-index: 999;
+}
+#logo h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+}
+#menu{
+    height: 100%;
+    width: 50%;
+    background-color: #f1f1f1 ;
+    position: absolute;
+    left: 50%;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 30%;
+}
+#menu ul li{
+    height: 100px;
+    width: 350px;
+    font-family: arial black;
+    font-size: 30px;
+    line-height:100px;
+    cursor: pointer;
+}
+.menu{
+    height: 100px;
+    width: 0px;
+    background-color: #ffc200 !important;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: none;
+    transition: all .5s;
+    left: -30%;
+}
+.rotiraj{
+    pointer-events: none;
+}
+#menu ul li:hover .menu{
+    width: 350px;
+} 
+#OtvoriMenu img{
+    height: 100px;
+    width: 100px;
+    background-color: #262626;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 999;
+    cursor: pointer;
+}
+#OtvoriMenu p{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 999;
+    cursor: pointer;
+}
+#closeMenu img{
+    height: 100px;
+    width: 100px;
+    background-color: #262626;
+    position: fixed;
+    top: 50%;
+    left: 93%;
+    transform: translateY(-50%);
+    z-index: 999;
+    cursor: pointer;
+}
+
+#closeMenu img:hover{
+    background-color: red;
+    transition: .4s;
+}
+
+
+.Pozdrav{
+    margin-top: 17%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
